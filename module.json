@@ -1,8 +1,8 @@
 {
   "id": "last-horizon-transfer",
-  "title": "Last Horizon Transfer",
+  "title": "Transfert - Manhwa",
   "description": "Exporte TOUT le contenu d'une partie (acteurs, objets, journaux, scènes, tables, macros, playlists, paquets de cartes, dossiers, réglages de monde des modules) dans un fichier JSON, et l'importe dans une autre partie. Pensé pour passer d'une partie Forge à une autre, y compris entre deux systèmes différents (Custom System Builder → Manhwa Sheet).",
-  "version": "1.1.0",
+  "version": "1.3.1",
   "authors": [{ "name": "Bastien" }],
   "compatibility": { "minimum": "13", "verified": "13" },
   "esmodules": ["scripts/main.js"],
