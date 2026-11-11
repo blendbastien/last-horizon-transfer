@@ -1,0 +1,53 @@
+/* Last Horizon Transfer — cadre autonome sombre à texte clair (règle n°11 du journal) */
+.lht-dialog .window-content { padding: 0; }
+.lht-panel {
+  background: #121420 !important; color: #e8eaf2 !important;
+  border: 1px solid #3a4160; border-radius: 6px; padding: 12px 14px; margin: 8px;
+  max-height: 70vh; overflow-y: auto; font-size: 13px; line-height: 1.4;
+}
+.lht-panel h3 {
+  font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: #8fd3ff;
+  border-bottom: 1px solid #2c3350; margin: 12px 0 6px; padding-bottom: 3px;
+}
+.lht-panel code { background: #1e2238; color: #ffd27a; padding: 0 4px; border-radius: 3px; font-size: 12px; }
+.lht-intro { margin: 0 0 6px; }
+.lht-muted { color: #9aa1b8; font-size: 12px; }
+.lht-warn {
+  background: #2b1f12; border: 1px solid #a8742b; border-radius: 4px; padding: 8px 10px; color: #ffe2b0;
+}
+.lht-ok { color: #8ef0a8; }
+.lht-meta { background: #1a1e30; border-radius: 4px; padding: 6px 10px; margin-bottom: 4px; }
+.lht-meta div + div { margin-top: 2px; }
+
+.lht-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2px 12px; }
+.lht-row { display: flex; align-items: center; gap: 6px; padding: 2px 0; cursor: pointer; color: #e8eaf2; }
+.lht-row input[type=checkbox] { margin: 0; flex: 0 0 auto; }
+.lht-row > span:first-of-type { flex: 1; }
+.lht-row.lht-full { grid-column: 1 / -1; }
+.lht-row input:disabled + span { color: #6b7190; }
+.lht-count {
+  background: #2c3350; color: #cfd6ff; border-radius: 10px; padding: 0 7px; font-size: 11px; min-width: 22px; text-align: center;
+}
+
+.lht-maps { display: flex; flex-direction: column; gap: 4px; }
+.lht-map { display: grid; grid-template-columns: 1fr 20px 180px; align-items: center; gap: 6px; }
+.lht-map-src { display: flex; align-items: center; gap: 6px; }
+.lht-map i { color: #8fd3ff; text-align: center; }
+.lht-panel select, .lht-panel input[type=file] {
+  background: #1e2238; color: #e8eaf2; border: 1px solid #3a4160; border-radius: 4px; padding: 3px 6px; width: 100%;
+}
+.lht-options { display: flex; flex-direction: column; gap: 4px; }
+.lht-field { display: flex; flex-direction: column; gap: 3px; }
+.lht-file { margin: 6px 0; }
+
+.lht-report { width: 100%; border-collapse: collapse; margin-bottom: 8px; }
+.lht-report th { text-align: left; color: #8fd3ff; padding: 3px 8px 3px 0; white-space: nowrap; vertical-align: top; width: 1%; }
+.lht-report td { padding: 3px 0; }
+.lht-errors { max-height: 200px; overflow-y: auto; margin: 0; padding-left: 18px; color: #ffb3b3; font-size: 12px; }
+
+/* Boutons dans l'onglet Paramètres */
+.lht-sidebar { display: flex; flex-direction: column; gap: 4px; margin-top: 6px; }
+.lht-sidebar h4.divider { margin: 6px 0 2px; }
+.lht-sidebar button { width: 100%; }
+.lht-um { color: #ffd27a; }
+.lht-um li { display: flex; gap: 8px; align-items: center; }
